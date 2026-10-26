@@ -153,6 +153,7 @@ Reliable pricing analytics require careful treatment of currency differences, re
 - The evaluation uses a group-based split, not chronological validation.
 - Predictive importance does not establish causation.
 - Further data-source verification and time-based validation would be required before production deployment.
+- Four records from Mazuma contain spreadsheet formula errors in the Zension_Grade field. These values were identified during data quality checks and were not used as predictive features.
 
 ## Repository Structure
 
